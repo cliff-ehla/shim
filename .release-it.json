@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "beforeStage": "npm run build"
+  },
+  "dist": {
+    "repo": "git@github.com:cliff-ehla/fk-ui.git",
+    "stageDir": ".stage",
+    "baseDir": "dist",
+    "files": ["**/*"],
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    }
+  }
+}
